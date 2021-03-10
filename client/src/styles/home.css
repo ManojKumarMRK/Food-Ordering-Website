@@ -1,0 +1,346 @@
+.imgholder {
+    
+    width: 100%;
+  
+    height: 325px;
+    padding: 0%;
+    margin: 0;
+    background: url(../assets/backgrounddesk.png) no-repeat center center fixed;
+    background-size: cover;
+  }
+  body {
+    margin: 0;
+    background-color:#fbfbfb !important;
+  }
+  .layer {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(247, 111, 111, 0.1), rgba(157, 14, 14, 0.6));
+  }
+  .edu {
+    background-color: white;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 0 auto 0 auto;
+    top: 20px;
+    position: relative;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: normal;
+    padding-top: 10px;
+  
+    color: #eb2929;
+  }
+  .des {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    margin: 20px auto 10px auto;
+  }
+  .drops {
+    height: 80px;
+    width: 50%;
+  
+    margin: 0 auto;
+  }
+  .holders {
+    width: 80%;
+    margin: 0 auto 20px auto;
+  }
+  .quick {
+    font-family:  'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    margin: 50px 0 15px 10px;
+    color: #192f60;
+  }
+  .quick_des {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    margin: 15px 0 30px 10px;
+    color: #8c96ab;
+  }
+  .search1 {
+    width: 40%;
+    padding: 10px 20px;
+    float: left;
+  
+    height: 100%;
+  }
+  .search2 {
+    width: 60%;
+    padding: 10px 20px;
+    float: left;
+    position: relative;
+    height: 100%;
+  }
+  .autooptions{
+    width: 100%;
+    padding: 10px 20px;
+    top: 100%;
+    right : 0;
+    position: absolute;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: white;
+    min-height: 40px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    z-index: 999;
+    color: #8c96ab;
+  }
+  .search1 select {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    padding: 0 20px;
+    color: #636f88;
+    border: none;
+  
+    height: 100%;
+    background-color: white;
+  }
+  .search1 input:focus {
+    border: none;
+  }
+  .search2 input {
+    height: 100%;
+    width: 100%;
+    padding: 0 10px 0 60px;
+   
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: #8c96ab;
+  }
+
+  .optionBox{
+    height: 80px;
+    
+    border-bottom: 1px solid #e9e9f2;
+    padding: 10px;
+ }
+ .optionBoxl{
+   float: left;
+   width: 20%;
+ }
+ .optionBoxr{
+  float: left;
+  width: 80%;
+  
+}
+.optionResname{
+  color: #192f60;
+   font-size: 17px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding: 2px;
+    text-align: left;
+   
+
+}
+.optionResarea{
+  color: #636f88;
+   font-size: 12px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    padding: 2px;
+    text-align: left;
+    font-size: 12px;
+
+}
+.optionBoximg{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+  .input-icons i {
+    position: absolute;
+  }
+  
+  .input-icons {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .icon {
+    padding: 22px 10px 0 10px;
+  
+    color: #74819e;
+  
+    min-width: 50px;
+    text-align: center;
+  }
+  .boxes {
+    height: 160px;
+  
+    margin: 20px 0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color:white;
+  }
+  .box-img{
+      height: 100%;
+      float: left;
+      width: 40%;
+     
+  }
+  .box-content{
+      height: 100%;
+      float: left;
+      width: 60%;
+      padding: 20px 10px 20px 30px;
+  }
+  .box-img_img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  }
+  .box-content_title{
+    font-family:  'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #192f60;
+    margin-bottom: 5px;
+     
+  }
+  .box-content_des{
+    font-family:  'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #8c96ab;
+    margin-bottom: 5px;
+    
+  }
+  @media (max-width : 1150px){
+    .holders {
+      width: 95%;
+      margin: 0 auto 20px auto;
+    }
+    .drops {
+      height: 80px;
+      width: 70%;
+    
+      margin: 0 auto;
+    }
+  
+  
+  }
+  @media (max-width : 990px){
+    .holders {
+      width: 80%;
+      margin: 0 auto 20px auto;
+    }
+    .drops {
+      height: 80px;
+      width: 80%;
+    
+      margin: 0 auto;
+    }
+  
+  
+  
+  }
+  @media (max-width : 730px){
+    
+    .drops {
+      height: 70px;
+      width: 95%;
+    
+      margin: 0 auto;
+    }
+    .edu {
+      
+      height: 90px;
+      width: 90px;
+      
+      font-size: 60px;
+      
+      padding-top: 0px;
+    
+      
+    }
+    .des {
+      
+      font-size: 30px;
+      
+    }
+  
+  
+  
+  }
+  
+  @media (max-width : 605px){
+    .holders {
+      width: 95%;
+      margin: 0 auto 20px auto;
+    }
+    .edu {
+      
+      height: 70px;
+      width: 70px;
+      
+      font-size: 30px;
+      
+      
+      padding-top: 0px;
+    
+      
+    }
+    .des {
+      
+      font-size: 25px;
+      
+    }
+    .search1 {
+      width: 100%;
+      padding: 10px 20px;
+      float: none;
+    
+      height: 45%;
+    }
+    .search2 {
+      width: 100%;
+      padding: 10px 20px;
+      float: none;
+    
+      height: 45%;
+    }
+    .drops {
+      height: 150px;
+      width: 95%;
+    
+      margin: 10px auto;
+    }
+    .icon {
+      padding: 15px 10px 0 10px;
+    }
+  
+  
+  }

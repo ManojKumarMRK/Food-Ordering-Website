@@ -1,0 +1,494 @@
+
+
+.border {
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.leftb {
+    float: left;
+    width: 30%;
+    min-height: 800px;
+}
+
+.rigthb {
+    float: right;
+    width: 70%;
+    min-height: 800px;
+}
+
+.title {
+    margin: 30px 0 2px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.searchContainer {
+    margin: 0 100px;
+}
+
+.filterSelect {
+    min-height: 750px;
+    width: 80%;
+    background-color: white;
+    margin: 20px auto 20px 0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: white;
+    padding: 2px 25px;
+}
+
+.searchRestarantBox {
+    height: 290px;
+    width: 90%;
+    margin: 20px auto 40px 0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: white;
+    padding: 20px;
+}
+
+.img {
+    float: left;
+    width: 30%;
+    height: 60%;
+    border-bottom: solid 1px #eaecf0;
+}
+
+.details {
+    float: right;
+    width: 70%;
+    height: 60%;
+    border-bottom: solid 1px #eaecf0;
+}
+
+.resnameSearch {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    margin: 5px 0;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.area {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    margin: 5px 0;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.addr {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    margin: 5px 0;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.que {
+    width: 230px;
+    float: left;
+    padding: 20px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.ans {
+    float: left;
+    padding: 20px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.restrauntImg {
+    width: 120px;
+    height: 120px;
+    border-radius: 23px;
+    margin-left: 40px;
+    
+}
+
+.filtermhead {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.filtershead {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin:  15px 0;
+}
+
+ .custom-select-search select {
+    width: 90%;
+    height: 35px;
+    border-radius: 3px;
+    border: solid 1px #8c96ab;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    padding: auto 40px;
+}
+
+.checkbox {
+    width: 18px;
+    height: 18px;
+    border-radius: 1.5px;
+    margin: 3px;
+    margin-bottom: 10px;
+}
+
+[type="checkbox"]:not(:checked) {
+    border-radius: 1.5px;
+    border: solid 1.5px #3a5075;
+}
+
+[type="checkbox"]:checked {
+    background-color: #3a5075;
+}
+
+.checkboxl {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+
+.pagination {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.pagination button {
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    margin: 0 4px;
+    border-radius: 7px;
+    border: solid 1px #8c96ab;
+    background-color: #ffff;
+}
+
+.pagination button:active {
+    background-color: #8c96ab;
+    color: white;
+    border: 1px solid #8c96ab;
+}
+
+.pagination a.disabled {
+    background-color: #fbfbfb;
+    color: #8c96ab;
+    border: 1px solid #8c96ab;
+}
+
+.paginationspace {
+    margin-top: 60px;
+    text-align: center;
+}
+
+#filterState{
+    
+    height: 50px;
+    background-color: white;
+    width: 100%;
+    border: none;
+    text-align: left;
+    color:  #192f60;
+    font-weight: 400;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: white;
+    padding: 2px 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
+}
+#arrow {
+    font-size: 20px;
+    float: right;
+}
+
+
+#filterState:active{
+    border: none !important;
+}
+.filterStateHolder{
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+}
+.resgroup{
+    min-height: 600px;
+}
+.sorry{
+    text-align: center;
+    vertical-align: center;
+    color:  #192f60;
+    font-weight: 600;
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+
+}
+
+/* Selectors and styles affecting screens UP TO 1200px*/
+
+@media (max-width: 1200px) {
+    .searchContainer {
+        margin: 0 40px;
+    }
+    .restrauntImg {
+        margin-left: 20px;
+    }
+}
+
+
+/* Selectors and styles affecting screens UP TO 1000px*/
+
+@media (max-width: 1000px) {
+    .searchContainer {
+        margin: 0 10px;
+    }
+    .leftb {
+        width: 25%;
+    }
+    .rigthb {
+        width: 70%;
+        float: right;
+    }
+    .filterSelect {
+        width: 90%;
+    }
+    .custom-select-search select {
+        width: 150px;
+    }
+    .e {
+        margin-left: 20px;
+    }
+}
+
+
+/* Selectors and styles affecting screens UP TO 800px*/
+
+@media (max-width: 800px) {
+    .searchContainer {
+        margin: 20px 30px;
+        
+          
+    }
+    .filterSelect {
+        width: 93%;
+        margin: 10px auto;
+    }
+    .rigthb {
+        width: 100%;
+        float: none;
+        min-height: 0px;
+    }
+    .leftb {
+        width: 100%;
+        float: none;
+        min-height: 0px;
+
+    }
+    .filterStateHolder{
+        width: 93%;
+        margin: 10px auto 10px auto;
+        display: block;
+    }
+    .searchRestarantBox {
+        height: 290px;
+        width: 93%;
+        margin: 10px auto 20px auto;
+        padding: 20px;
+    }
+}
+
+
+/* Selectors and styles affecting screens UP TO 700px*/
+
+@media (max-width: 700px) {
+    .pagination button {
+        padding: 4px 10px;
+    
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .paginationspace{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .searchContainer {
+        margin: 0 auto;
+        width: 96%;
+       
+    }
+    .title {
+        font-size: 30px;
+        font-weight: 800;
+        width: 100%;
+        margin: 10px auto;
+    }
+    .searchRestarantBox {
+        height: 200px;
+        width: 100%;
+        margin: 10px auto 20px auto;
+        padding: 20px;
+    }
+    
+    .img {
+        width: 30%;
+        height: 60%;
+    }
+    .details {
+        width: 70%;
+        height: 60%;
+    }
+    .resnameSearch {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 3px 0;
+    }
+    .area {
+        font-size: 12px;
+        font-weight: 300;
+        margin: 3px 0;
+    }
+    .addr {
+        font-family: 'Poppins', sans-serif;
+        font-size: 11px;
+        font-weight: 300;
+        margin: 2px 0;
+    }
+    .que {
+        width: 130px;
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    .ans {
+        float: left;
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+    .restrauntImg {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        margin-left: 0px;
+    }
+    .filterStateHolder{
+        width: 100%;
+        margin: 10px auto 10px auto;
+        display: block;
+    }
+    .filterSelect {
+        width: 100%;
+        margin: 10px auto;
+        
+    }
+   
+   
+}
+
+
+@media (max-width: 400px) {
+
+    .searchContainer{
+        width: 98%;
+        margin: 30px auto; 
+    }
+    .title {
+        font-size: 27px;
+        font-weight: 800;
+        width: 100%;
+        margin: 10px auto;
+    }
+    .resnameSearch {
+        font-size: 15px;
+        font-weight: 600;
+        margin: 3px 0 3px 5px;
+    }
+    .area {
+        font-size: 12px;
+        font-weight: 300;
+        margin: 3px 0 3px 5px;
+    }
+    .addr {
+        font-family: 'Poppins', sans-serif;
+        font-size: 11px;
+        font-weight: 300;
+        margin: 2px 0 2px 5px;
+    }
+    
+
+}
